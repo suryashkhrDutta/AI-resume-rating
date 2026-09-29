@@ -1,4 +1,4 @@
-from day5 import main
+from resumeRating import main
 
 
 if __name__ == "__main__":
