@@ -2,7 +2,7 @@
 
 A small command-line tool that compares a folder of resumes against a job description and ranks the candidates.
 
-An LLM (via [Groq](https://groq.com)) reads the job description and each resume and decides which skills and requirements are matched. **The LLM never produces the score.** Plain Python turns those judgments into a fixed 100-point rubric, so every point in a score can be traced back to a specific match or gap.
+An LLM (via [Groq](https://groq.com)) reads the job description and each resume and decides which skills and requirements are matched. **The LLM never produces the score.** Plain Python turns those judgments into a fixed 100-point rubric...
 
 ## Features
 
