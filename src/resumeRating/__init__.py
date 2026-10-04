@@ -416,4 +416,20 @@ def main() -> None:
         print(f"CSV results saved to {args.csv_output}")
 
 
-__all__ = ["main"]
+__all__ = [
+    "main",
+    "MODEL",
+    "JobDescription",
+    "Resume",
+    "MatchAnalysis",
+    "ScoreBreakdown",
+    "CandidateResult",
+    "parse_job_description",
+    "parse_resume",
+    "analyze_match",
+    "final_score",
+    "process_resume",
+    "read_resume",
+    "_canonical_matches",
+    "_request_json",
+]
