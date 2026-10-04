@@ -60,6 +60,25 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_key_here
 ```
 
+## Docker
+
+Prerequisites: Docker Desktop and a Groq API key. Create a local `.env` file from
+`.env.example` and set `GROQ_API_KEY`; do not commit that file.
+
+```bash
+docker compose up --build
+```
+
+Open [http://localhost:5173](http://localhost:5173). To stop the containers:
+
+```bash
+docker compose down
+```
+
+Docker builds the React application into static files, Nginx serves them, and Nginx
+proxies `/api` requests over the Compose network to FastAPI. FastAPI runs in its
+own container and communicates with Groq using the key provided by the local `.env`.
+
 ## Usage
 
 1. Put the resumes (`.pdf` or `.docx`) in the `resumes/` folder.
