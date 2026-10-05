@@ -1,0 +1,38 @@
+{
+  "Arjun_Mehta_Dummy_Resume.pdf": {
+    "required_skills": [
+      "Programming languages (Java, Python, C++, C#, Go, Rust, TypeScript)",
+      "Data structures",
+      "Algorithms",
+      "Object-oriented design"
+    ],
+    "ground_truth_matches": []
+  },
+  "Ashish Raj 24PCS007 (1) - Ashish Raj.pdf": {
+    "required_skills": [
+      "Programming languages (Java, Python, C++, C#, Go, Rust, TypeScript)",
+      "Data structures",
+      "Algorithms",
+      "Object-oriented design"
+    ],
+    "ground_truth_matches": []
+  },
+  "Resume for Freshers - Priyanshu Singh.docx": {
+    "required_skills": [
+      "Programming languages (Java, Python, C++, C#, Go, Rust, TypeScript)",
+      "Data structures",
+      "Algorithms",
+      "Object-oriented design"
+    ],
+    "ground_truth_matches": []
+  },
+  "Vikram_Kapoor_Dummy_Resume.pdf": {
+    "required_skills": [
+      "Programming languages (Java, Python, C++, C#, Go, Rust, TypeScript)",
+      "Data structures",
+      "Algorithms",
+      "Object-oriented design"
+    ],
+    "ground_truth_matches": []
+  }
+}
